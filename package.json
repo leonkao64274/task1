@@ -4,15 +4,17 @@
   "description": "A simple Node app built on Express, instantly up and running.",
   "main": "server.js",
   "scripts": {
-    "start:vite": "vite --port 3000",
+    "startvite": "vite --port 3000",
     "start": "node -r dotenv/config server.js"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^3.1.0",
+    "axios": "^1.7.7",
     "body-parser": "^1.20.2",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "morgan": "^1.10.0",
+    "nodemailer": "^6.9.14",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "request": "^2.88.2"
